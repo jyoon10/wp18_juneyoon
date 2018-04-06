@@ -14,9 +14,23 @@
       grid-template: repeat(13, 13fr) / repeat(2, 2fr);
     }
 
-    .blue {
-      grid-area: 1 / 1 / 8 / 1;
+    .grid .blue {
+/*      grid-area: 1 / 1 / 8 / 1; */
       background-color: #151BDC;
+      display: grid;
+      grid-template-columns: 1fr ;
+      grid-column: 1/2;
+      grid-row: 1/8;
+    }
+
+    .grid .blue img {
+      width: 20px;
+      padding-left: 23px;
+      padding-right: 23px;
+    }
+
+    .grid .blue div {
+      justify-self: center;
     }
 
     .row1 {
@@ -89,7 +103,17 @@
 
  <body>
    <div class="grid">
-     <div class="blue"></div>
+     <div class="blue">
+       <div><img src="img/star.svg"><img src="img/star.svg"><img src="img/star.svg"><img src="img/star.svg"><img src="img/star.svg"><img src="img/star.svg"></div>
+       <div><img src="img/star.svg"><img src="img/star.svg"><img src="img/star.svg"><img src="img/star.svg"><img src="img/star.svg"></div>
+       <div><img src="img/star.svg"><img src="img/star.svg"><img src="img/star.svg"><img src="img/star.svg"><img src="img/star.svg"><img src="img/star.svg"></div>
+       <div><img src="img/star.svg"><img src="img/star.svg"><img src="img/star.svg"><img src="img/star.svg"><img src="img/star.svg"></div>
+       <div><img src="img/star.svg"><img src="img/star.svg"><img src="img/star.svg"><img src="img/star.svg"><img src="img/star.svg"><img src="img/star.svg"></div>
+       <div><img src="img/star.svg"><img src="img/star.svg"><img src="img/star.svg"><img src="img/star.svg"><img src="img/star.svg"></div>
+       <div><img src="img/star.svg"><img src="img/star.svg"><img src="img/star.svg"><img src="img/star.svg"><img src="img/star.svg"><img src="img/star.svg"></div>
+       <div><img src="img/star.svg"><img src="img/star.svg"><img src="img/star.svg"><img src="img/star.svg"><img src="img/star.svg"></div>
+       <div><img src="img/star.svg"><img src="img/star.svg"><img src="img/star.svg"><img src="img/star.svg"><img src="img/star.svg"><img src="img/star.svg"></div>
+     </div>
      <div class="row1"></div>
      <div class="row2"></div>
      <div class="row3"></div>

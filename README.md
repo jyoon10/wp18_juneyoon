@@ -23,8 +23,8 @@ Week 2 Assignment
 
 Week 3 In-Class
 * Senegal flag https://jyoon10.github.io/wp18_juneyoon/week3/senegalflag.html
-* Interactive https://jyoon10.github.io/wp18_juneyoon/week3/flag_interactive.html
-* Jquery https://jyoon10.github.io/wp18_juneyoon/week3/flag_query.html
+* Interactive https://jyoon10.github.io/wp18_juneyoon/week3/flag_query.html
+* Jquery https://jyoon10.github.io/wp18_juneyoon/week3/flag_interactive.html
 
 Week 3 Assignment
 * Animated Composition https://jyoon10.github.io/wp18_juneyoon/week3/animatedcomposition_jy.html

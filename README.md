@@ -28,3 +28,6 @@ Week 3 In-Class
 
 Week 3 Assignment
 * Animated Composition https://jyoon10.github.io/wp18_juneyoon/week3/animatedcomposition_jy.html
+
+Week 4 Assignment
+* Website https://jyoon10.github.io/wp18_juneyoon/week4/juneyoon_wp18website.html
